@@ -1,0 +1,108 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="camerapage.css"></link>
+
+    <script type="text/javascript" src="camerapagejava.js"></script>
+  </head>
+  <div class="textpos">
+    <!--do you like it?-->
+
+<h2>SHARE YOUR SMILE!</h2>
+
+   
+</div>
+
+  
+<!--REDBORDER-->
+
+  <section> </section>
+  
+<!--COMMENTBOX-->
+
+    
+<!-- info button -->
+  
+<div class="bottomleft">
+  <button class="infoButton">
+  <div class="infoButton-btn">
+  <span class="infoButton-btn-text"><b>i</b></span>
+    
+  </div>
+  <div class="infoButton-container">
+  <div class="infoButton-container-message"> Turn on the camera and record your smile. You can personalise your smile by adding a dedicated phrase either verbally or by writing it on the next page. Don't be afraid if you don't like the recorded video, you can repeat it on the next page by pressing "Try Again". Enjoy :)  </div>
+  </div>
+  </button>
+  </div>
+    
+
+     
+<!-- + button -->
+<div class="wrapper">
+<div class="button" onclick="document.body.classList.add('active')" >
+<span class="button-text"><a href = "tryagain.html"> <b>></b> </a></span>
+</div>
+</div>
+<div class="wrapper">      
+</div>
+</div>
+
+
+
+  
+<!--multibutton--> 
+<div class="center">
+    <div class= "gruppo"  >
+      <bottone class="bottone">START CAMERA</bottone>
+
+  </div>
+  </div>
+     
+  
+  <!--leave a comment-->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<button class="open-button" onclick="openForm()"><i style='font-size:24px'>&#xf27a;</i></button>
+
+<div class="form-popup" id="myForm">
+<form action="/action_page.php" class="form-container">
+  
+<h3>Leave a Comment</h3>
+  
+<div class="cc-contactpop fixed">
+ <div class="renseignement">
+</div>
+<form method="post">
+<div class="form-group">
+<input type="text" name="name" placeholder="Your name"/>
+</div>
+<div class="form-group">
+<input type="email" name="email" placeholder="E-mail"/>
+</div>
+<div class="form-group">
+<input type="text" name="phone" placeholder="Phone number"/>
+</div>
+<div class="form-group">
+<textarea id="message" type="text" placeholder="Message"></textarea>
+</div>
+      
+<button type="Submit" class="btnn" onclick="closeForm()"><a href ="mailto:sorrisosospeso@gmail.com"             >Submit</a></button>
+<button type="button" class="btnn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+</div>
+
+  
+       <!--FOOTER-->
+
+<footer class="footer"> Write us: sorrisosospeso@gmail.com
+</footer>
+    
+  
+
+  
+</body>
+</html>

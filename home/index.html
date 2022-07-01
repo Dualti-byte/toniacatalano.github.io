@@ -1,0 +1,99 @@
+
+<html> 
+<head>
+<script type="text/javascript" src="home.js"></script>
+<link rel="stylesheet" type="text/css" href="homestyle.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+
+
+<body>
+  
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+
+<!-- take a smile-->
+
+
+<h1> TAKE A SMILE!</h1>
+ 
+<!-- hyplink suspsmile -->
+  
+ <h3> <a href="suspendedsmile.html"><b>Suspended Smile </b></a>
+ </h3>
+
+
+  <!-- random button -->
+  
+
+<button onclick="display_random_image();" class="btn"><span class="button-text"> Click Me </span> </button> 
+
+
+<!-- info button -->
+  
+<div class="bottomleft">
+<button class="infoButton">
+<div class="infoButton-btn">
+<span class="infoButton-btn-text"><b>i</b></span>
+  
+</div>
+<div class="infoButton-container">
+<div class="infoButton-container-message"> By scanning the QR code with your smartphone you will be able to enjoy a Suspended Smile. Each Smile was donated by a child  with a dedicated phrase in it. For more information about the project, click on Suspended Smile. You can click on the "click me" button and choose the QR code randomly or click on the map and choose which one to display.</div>
+</div>
+</button>
+</div>
+  
+ <!-- + button -->
+<div class="wrapper">
+<div class="button" onclick="document.body.classList.add('active')" >
+<span class="button-text"><a href = "camerapage.html"> <b> +</b> </a></span>
+</div>
+</div>
+<div class="wrapper">      
+</div>
+</div>
+
+<!--leave a comment-->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<button class="open-button" onclick="openForm()"><i style='font-size:24px'>&#xf27a;</i></button>
+
+<div class="form-popup" id="myForm">
+<form action="/action_page.php" class="form-container">
+  
+<h3>Leave a Comment</h3>
+  
+<div class="cc-contactpop fixed">
+ <div class="renseignement">
+</div>
+<form method="post">
+<div class="form-group">
+<input type="text" name="name" placeholder="Your name"/>
+</div>
+<div class="form-group">
+<input type="email" name="email" placeholder="E-mail"/>
+</div>
+<div class="form-group">
+<input type="text" name="phone" placeholder="Phone number"/>
+</div>
+<div class="form-group">
+<textarea id="message" type="text" placeholder="Message"></textarea>
+</div>
+      
+<button type="Submit" class="btnn" onclick="closeForm()"><a href ="mailto:sorrisosospeso@gmail.com"             >Submit</a></button>
+<button type="button" class="btnn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+</div>
+
+<!-- footer -->
+ <footer>
+<div class= "footer">Write us: sorrisosospeso@gmail.com
+</footer>
+   
+
+<!-- end -->   
+</body>
+</html>
+
