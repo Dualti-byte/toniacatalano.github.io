@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body {
+	overflow: hidden;
+	margin: 0;
+	font-family: 'Sintony', sans-serif;
+	text-rendering: optimizeLegibility;
+   text-align: center;
+}
+
+.well {
+	position: relative;
+	overflow: hidden;
+	transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+  
+    
+}
+
+.top {
+	font-size: 50%;
+	color: black;
+	cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.topp {
+	font-size: 50%;
+	color: black;
+	cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+    background-color: #ff2c2c; 
+  border: 1px solid #c61a09; 
+  color: white; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  float: left; 
+  margin: 0.2em;
+  border-radius: 15px;
+  box-shadow: 0 9px #c30010;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; 
+}
+
+.topp:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topp:not(:last-child) {
+  border-right: none;
+}
+
+
+.topp:hover {
+  background-color: #d1001f;
+}
+
+
+
+.panel {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+font-size: 40px;
+	padding: 4em;
+	box-sizing: border-box;
+	color: white;
+	cursor: default;
+  overflow: hidden;
+	font-family: 'Sintony', sans-serif;
+  text-align-last: justify;
+
+  
+  
+  
+}
+
+#logo {
+ 
+  	padding: 1em;
+}
+
+#loggo {
+ 
+  float:right;
+  font-size: 30px;
+  text-align-last: right;
+
+}
+#lloggo {
+ 
+  text-align-last: right;
+
+}
+
+#llloggo {
+ 
+  text-align: center;
+  float:center;
+  text-align-last: center;
+
+}
+
+
+
+
+#logggo {
+  text-align: center;
+  float:center;
+  padding: 8em;
+  text-align-last: right;
+  
+}
+
+#logoi {
+  text-align: center;
+  float:center;
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
+  top:100%;
+  text-align-last: right;
+}
+  
+  #logoii {
+ position: absolute;
+  top: 125px;
+  right: 1px;
+  width: 800px;
+  height: 200px;
+  text-align-last: right;
+
+
+ 
+
+}
+
+
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}  
+#logos {
+ 
+  	padding: 2em;
+   margin-left: auto;
+  margin-right: auto;
+}
+  #panell {
+ 
+  	padding: 7em;
+}
+
+ #panelll {
+ 
+padding:5.5em;
+
+}
+
+  
+.panel:nth-child(1) {
+	background: white;
+}
+
+.panel:nth-child(2) {
+	background: #8C52FF;
+  
+}
+
+.panel:nth-child(3) {
+	background: #FF66C4;
+}
+
+.panel:nth-child(4) {
+	background: #F9D600;
+}
+
+.panel:nth-child(5) {
+	background: #00C2CB;
+}
+
+.panel:nth-child(6) {
+	background: #FF8200;
+}
+
+.panel:nth-child(7) {
+	background: orange;
+}
+
+.panel:nth-child(7) {
+	background: #7ED957;
+}
+
+.panel:nth-child(8) {
+	background: black;
+}
+
+.panel:nth-child(9) {
+	background:white;
+}
+
+
+#container { margin: 0%; }
+
+#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
+
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 18.5px; font-weight: bold;}
+
+#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 560px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:555px;
+}
+
+
+a:link {
+  text-decoration: none;
+   color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  text-decoration:none;
+   color: orange;
+  font-size:100%;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.roll-text{
+  font-size:2em;
+  text-align:center;
+  margin-top:10vh;
+}
+
+.roll-text:before{
+  font-size:1em;
+  text-align:center;
+  margin-top:10vh;
+  content:'the world';
+  animation: texte 9s infinite;
+}
+
+@keyframes texte {
+  
+  10% {
+    content: 'the world';
+  }
+  20% {
+    content: 'el mundo';
+  }
+  30% {
+    content: 'il mondo';
+  }
+  40% {
+    content: 'ο κόσμος';
+  }
+  50% {
+    content: 'o mundo';
+  }
+  60% {
+    content: 'der welt';
+  }
+  70% {
+    content: "'o munno";
+  }
+  80% {
+    content: '世間様';
+  }
+   90% {
+    content: 'världen';
+  }
+  100% {
+    content: '世界';
+  }
+}
+
